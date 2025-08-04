@@ -41,7 +41,7 @@ function verificarChute() {
 function gerarNumeroAleatorio() {
   let numeroEscolhido = parseInt(Math.random() * NumeroGerados +1);
   let numerototaldeEscolhas = listanumeroSorteado.length;
-  if( numerototaldeEscolhas == 500) { 
+  if( numerototaldeEscolhas == 100) { 
     listanumeroSorteado = [];
 }
   if (listanumeroSorteado.includes(numeroEscolhido)) {
